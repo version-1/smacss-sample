@@ -1,0 +1,22 @@
+
+.modal-header {
+  padding: 3%;
+  background: $secondary-bg-color;
+  color: $secondary-font-color;
+}
+
+.modal-footer {
+  padding: 0 3%;
+}
+
+.modal-content-custom{
+  padding: 3%;
+}
+
+.overlay{
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  background: $secondary-bg-color;
+  opacity: 0.5;
+}

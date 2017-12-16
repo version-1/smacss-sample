@@ -1,0 +1,20 @@
+.section{
+  border-bottom: 1px solid $primary-border-color;
+}
+.section-title{
+  display: inline-block;
+  margin: 30px auto;
+}
+
+.section-title:after {
+  display: block;
+  content: '';
+  margin-top: 10px;
+  color: transparent;
+  width: 100%;
+  border-bottom: 2px solid $strong-border-color;
+}
+
+.section-content{
+  width: 100%;
+}

@@ -1,0 +1,32 @@
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  background: $primary-bg-color;
+  font-family: $primary-font-family;
+  font-size: $primary-font-size;
+  line-height:$primary-line-height;
+  letter-spacing:$primary-letter-spaceing;
+  color: $primary-font-color;
+}
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+         -o-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: $secondary-font-color;
+}

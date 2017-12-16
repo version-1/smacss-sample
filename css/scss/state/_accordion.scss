@@ -1,0 +1,23 @@
+
+.accordion-body.is-opened .accordion-content{
+    display: block;
+    padding: 20px 40px;
+    color: $primary-font-color;
+    height: auto;
+    transition:
+      height         .5s ease-out,
+      padding-top    .5s ease-out,
+      padding-bottom .5s ease-out;
+}
+
+
+.menu-accordion-body.is-opened .menu-accordion-content{
+  max-height: 100vh;
+  transition:  max-height .5s ease-out;
+  .narrow-menu{
+    display: block;
+  }
+  .narrow-menu-item{
+    display: block;
+  }
+}

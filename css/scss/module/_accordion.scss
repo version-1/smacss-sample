@@ -1,0 +1,25 @@
+
+.accordion-body .accordion-content {
+  padding: 0px;
+  margin: 0px;
+  color: transparent;
+  line-height: 1;
+  height: 0px;
+  transition:
+    height         .5s ease-out,
+    padding-top    .5s ease-out,
+    padding-bottom .5s ease-out;
+}
+
+
+.menu-accordion-body .menu-accordion-content {
+  padding: 0px;
+  margin: 0px;
+  max-height: 0px;
+  .narrow-menu{
+    display: none;
+  }
+  .narrow-menu-item{
+    display: none;
+  }
+}

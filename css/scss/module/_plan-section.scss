@@ -1,0 +1,35 @@
+
+@media screen and (min-width:840px) {
+  .plan .section-content{
+    width: 100%;
+    display: table;
+  }
+  .plan-item{
+    display: table-cell;
+  }
+}
+
+.plan-item{
+  max-width: 500px;
+  margin: 30px auto;
+  border: 1px solid $secondary-border-color;
+  text-align: center;
+  .plan-item-header{
+     padding: 30px;
+     border-bottom: 1px solid $secondary-border-color;
+     background: $secondary-bg-color;
+     color:$secondary-font-color;
+  }
+  .plan-item-body{
+    min-height:300px;
+    padding: 30px;
+    border-bottom: 1px solid $secondary-border-color;
+  }
+  .plan-item-footer{
+    min-height: 50px;
+    padding: 30px;
+  }
+  .price{
+    font-size: 3rem;
+  }
+}

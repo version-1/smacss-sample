@@ -1,0 +1,71 @@
+
+
+@import 'theme/default';
+// @import 'theme/theme1';
+// @import 'theme/theme2';
+// @import 'theme/theme3';
+
+
+
+/* bg-color{{{ */
+$primary-bg-color: map-get($color-map,site-base-white-color);
+$secondary-bg-color: map-get($color-map,site-quaternary-color);
+$tertiary-bg-color: map-get($color-map,site-base-white-color);
+$quaternary-bg-color: map-get($color-map,site-quinary-color);
+$main-bg-color: map-get($color-map,site-primary-color);
+$info-bg-color: map-get($color-map,site-secondary-color);
+$warning-bg-color: map-get($color-map,site-tertiary-color);
+$alert-bg-color: map-get($color-map,site-alert-color);
+
+/* }}}bg-color */
+
+/* font-color{{{ */
+
+$primary-font-color: #808080;
+$secondary-font-color: #FCFDFF;
+$strong-font-color: map-get($color-map,site-quaternary-color);
+$main-font-color: map-get($color-map,site-primary-color);
+$info-font-color: map-get($color-map,site-secondary-color);
+$warning-font-color: map-get($color-map,site-tertiary-color);
+
+/* }}}font-color */
+
+$primary-font-family: sans-serif;
+
+$primary-font-size: 16px;
+
+$primary-line-height: 1.5rem;
+
+$primary-letter-spaceing: 0.8pt;
+
+$primary-border-color: #D3DDE5;
+$secondary-border-color: #a3a3a3;
+$tertiary-border-color: map-get($color-map,site-base-white-color);
+$strong-border-color: map-get($color-map,site-quaternary-color);
+
+$primary-shadow-color: #292929;
+
+$btn-color: #FCFDFF;
+$btn-bg-color: #2A2A72;
+
+$btn-primary-bg-color: map-get($color-map,site-primary-color);
+$btn-primary-shadow-color: darken($btn-primary-bg-color,30%);
+$btn-secondary-bg-color: #a3a3a3;
+$btn-dark-bg-color: map-get($color-map,site-quaternary-color);
+$btn-info-bg-color: map-get($color-map,site-secondary-color);
+$btn-alert-bg-color: map-get($color-map,site-alert-color);
+$btn-warning-bg-color: map-get($color-map,site-tertiary-color);
+
+
+$btn-shadow-color: #292929;
+
+$btn-warning-shadow-color: #d0bfa2;
+$btn-warning-border-color: #d88c00;
+
+$footer-gray:#a3a3a3;
+
+$x-small-screen-size: 320px;
+$small-screen-size: 480px;
+$middle-screen-size: 980px;
+$large-screen-size: 1200px;
+$x-large-screen-size: 1960px;

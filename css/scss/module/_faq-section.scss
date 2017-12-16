@@ -1,0 +1,31 @@
+
+.faq{
+  font-size: 1.2rem;
+  line-height: 1;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.question {
+  margin: 0 0 2px 0;
+  padding : 25px 30px;
+  color : $secondary-font-color;
+  background : $info-bg-color;
+  cursor: pointer;
+
+  &:hover{
+    opacity: 0.8;
+  }
+}
+
+.question-title{
+  width: 90%;
+  text-align: left;
+  display: inline-block;
+}
+
+.answer {
+  padding: 0px 40px;
+  background: $quaternary-bg-color;
+  font-size: 1.2rem;
+}

@@ -1,0 +1,29 @@
+.l-header{
+  display: table;
+  width: 100%;
+}
+
+@media screen and (min-width:$x-large-screen-size) {
+  .l-container{
+    margin: 0 15%;
+  }
+}
+
+.l-section{
+  padding: 50px;
+  text-align: center;
+}
+
+@media screen and (max-width:$small-screen-size) {
+  .l-section{
+    padding: 50px 10px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width:$x-small-screen-size) {
+  .l-section{
+    padding: 50px 0px;
+    text-align: center;
+  }
+}
